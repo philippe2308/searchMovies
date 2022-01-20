@@ -1,0 +1,56 @@
+.card{
+    flex-grow: 1;
+    height: 300px;
+    width: calc(33% - 20px);
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.card:hover > .info
+{
+    height: 220px;
+}
+.card:hover > .info > .description
+{
+    top: 80px;
+    color:rgba(255,255,255,1);
+}
+.info{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background: linear-gradient(180deg, rgba(28,44,62,0) 0%,rgba(28,44,62,0.5) 30%,rgba(28,44,62,1) 90%, rgba(28,44,62,1) 100%);
+    transition:all 0.3s ease;
+}
+.title{
+    color:#fff;
+    text-shadow: 2px 2px 4px rgba(28,44,62,1);
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.yearAndDirector{
+    color:rgb(220, 220, 220);
+    text-shadow: 2px 2px 4px rgba(28,44,62,1);
+    font-size: 14px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    transition:all 1s ease;
+}
+.description{
+    color:rgba(255,255,255,0);
+    text-shadow: 2px 2px 4px rgba(28,44,62,1);
+    font-size: 14px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    transition:all 1s ease;
+}
+.image{
+    width: 100%;
+}
