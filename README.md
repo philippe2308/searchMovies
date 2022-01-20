@@ -28,7 +28,7 @@ The server API is built on top of the https://github.com/typicode/json-server li
 
 
 ## Functinalities
-
+ 
 ![](./image1.jpeg)
 ![](./image2.jpeg)
 ![](./image3.png)
