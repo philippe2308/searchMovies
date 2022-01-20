@@ -1,6 +1,4 @@
 # Movie explorer 🎥
-
-## New features
  
 You can search for movie title, year or director and the application will mark with a yellow color all the sentences that match with what you type on the search bar
 
